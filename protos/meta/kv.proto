@@ -15,7 +15,7 @@
  */
 
 syntax = "proto3";
-package placement.center.kv;
+package meta.service.kv;
 
 service KvService {
   rpc Set(SetRequest) returns (SetReply) {}

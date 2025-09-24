@@ -15,7 +15,7 @@
  */
 
 syntax = "proto3";
-package placement.center.journal;
+package meta.service.journal;
 
 service EngineService {
   rpc ListShard(ListShardRequest) returns (ListShardReply) {}

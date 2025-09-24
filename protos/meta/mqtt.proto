@@ -15,7 +15,7 @@
  */
 
 syntax = "proto3";
-package placement.center.mqtt;
+package meta.service.mqtt;
 
 import "vendor/validate/validate.proto";
 

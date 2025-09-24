@@ -4,7 +4,7 @@ The protobuf protocol for RobustMQ grpc server.
 
 - broker_mqtt
 - journal_server
-- placement_center
+- meta_service
 
 ## Install
 

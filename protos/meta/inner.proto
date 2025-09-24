@@ -15,11 +15,11 @@
  */
 
 syntax = "proto3";
-package placement.center.inner;
+package meta.service.inner;
 
 import "vendor/validate/validate.proto";
 
-service PlacementCenterService {
+service MetaServiceService {
   rpc ClusterStatus(ClusterStatusRequest) returns (ClusterStatusReply) {}
 
   rpc NodeList(NodeListRequest) returns (NodeListReply) {}

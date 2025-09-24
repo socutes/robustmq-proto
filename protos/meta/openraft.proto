@@ -15,7 +15,7 @@
  */
 
 syntax = "proto3";
-package placement.center.openraft;
+package meta.service.openraft;
 
 service OpenRaftService {
   rpc Vote(VoteRequest) returns (VoteReply) {}
