@@ -396,7 +396,7 @@ message SetTopicRetainMessageRequest {
   string cluster_name = 1;
 
   //The name of the topic.
-  string topic_id = 2;
+  string topic_name = 2;
 
   //The parameter contains retain message, encoded from a `MQTTMessage` object into a binary format.
   string retain_message = 3;
@@ -412,7 +412,7 @@ message GetTopicRetainMessageRequest {
   string cluster_name = 1;
 
   //The name of the topic.
-  string topic_id = 2;
+  string topic_name = 2;
 }
 
 message GetTopicRetainMessageReply {
