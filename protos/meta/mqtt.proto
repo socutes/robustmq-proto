@@ -82,6 +82,7 @@ service MqttService {
   //Returns: An empty struct.
   rpc UpdateSession(UpdateSessionRequest) returns (UpdateSessionReply) {}
 
+
   //Deletes the corresponding session based on the request
   //
   //Parameters:
